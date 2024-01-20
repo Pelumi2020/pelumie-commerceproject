@@ -264,7 +264,7 @@ HEADER
 }
 
 .inner-header :where(.wrap, .menu > ul),
-.list-inline>ul {
+.list-inline > ul {
     display: flex;
     align-items: center;
 }
@@ -281,8 +281,6 @@ HEADER
     max-width: 720px;
 }
 
-
-
 .header-center .branding {
     position: absolute;
     left: 0;
@@ -298,14 +296,14 @@ HEADER
     pointer-events: auto;
 }
 
-.header-center .menu>ul>li>a {
+.header-center .menu > ul > li > a {
     font-size: var(--fs14);
     font-weight: var(--fw600);
     text-transform: uppercase;
     padding: 0 15px;
 }
 
-.header-right>ul {
+.header-right ul {
     justify-content: flex-end;
 
 }
